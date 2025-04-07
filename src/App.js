@@ -11,6 +11,7 @@ import BoofStream from './AwsomeStuffHere/ZaZaBoof/BoofStream';
 import AwesomeCursor from './AwsomeStuffHere/AwesomeCursor/AwesomeCursor';
 import MikuMikuBeam from './AwsomeStuffHere/MikuMikuBeam/MikuMikuBeam';
 import mikuBGR from "./assets/miku-miku-beam.gif"
+import CaseOpener from './AwsomeStuffHere/CaseOpener/CaseOpener';
 
 function App() {
 
@@ -71,7 +72,7 @@ function App() {
         </div>
         <img id='game-image' src={letTheGameBegin} style={{width: '500px'}} alt= "letTheGameBegin"></img>
       </div>
-
+      <CaseOpener/>
       <HelikopterButton>
         <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0`" target="_blank" rel="noopener noreferrer">
           КЛИКНИ ТУК

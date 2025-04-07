@@ -1,0 +1,91 @@
+/* CaseOpener.css */
+.case-opener-container {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.case-container {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.case-image {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.open-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.roulette-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.roulette-window {
+  overflow-x: auto;
+  width: 300px;
+  border: 2px solid #333;
+  margin: 0 auto;
+  position: relative;
+  white-space: nowrap;
+}
+
+.roulette-track {
+  display: flex;
+}
+
+.roulette-image {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.marker {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: red;
+  pointer-events: none;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.result-section {
+  margin-top: 30px;
+}
+
+.winning-container {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border: 3px solid #4caf50;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.winning-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: zoomIn 0.5s ease-out;
+}
+
+.result-message {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
